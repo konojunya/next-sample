@@ -20,6 +20,8 @@
     "redux-saga": "0.16.0"
   },
   "devDependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "node-sass": "^4.9.0",
     "redux-devtools-extension": "2.13.2"
   }
 }
