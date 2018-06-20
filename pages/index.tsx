@@ -1,7 +1,10 @@
-import * as React from "react"
+import Link from 'next/link' 
 
-const Index = () => (
-  <div>Welcome to next</div>
+export default () => (
+  <div>
+    <Link href="/about">
+      <p>to /about</p>
+    </Link>
+    <h1>Index Page</h1>
+  </div>
 )
-
-export default Index;
