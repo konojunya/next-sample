@@ -4,7 +4,6 @@ import {connect} from 'react-redux'
 import css from '../styles/style.scss'
 
 import Counter from './counter'
-import Clock from './clock'
 
 function Page ({error, lastUpdate, light, linkTo, NavigateTo, placeholderData, title}) {
   return (
@@ -12,7 +11,6 @@ function Page ({error, lastUpdate, light, linkTo, NavigateTo, placeholderData, t
       <h1 className={css.example}>
         {title}
       </h1>
-      <Clock lastUpdate={lastUpdate} light={light} />
       <Counter />
       <nav>
         <Link href={linkTo}>

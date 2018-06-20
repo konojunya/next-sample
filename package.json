@@ -21,7 +21,9 @@
   },
   "devDependencies": {
     "@zeit/next-sass": "^0.2.0",
+    "next-compose-plugins": "^2.1.1",
     "node-sass": "^4.9.0",
-    "redux-devtools-extension": "2.13.2"
+    "redux-devtools-extension": "2.13.2",
+    "webpack-bundle-analyzer": "^2.13.1"
   }
 }
