@@ -1,10 +1,9 @@
-import Link from 'next/link' 
+import React from 'react'
+import Link from 'next/link'
 
 export default () => (
-  <div>
-    <Link href="/about">
-      <p>to /about</p>
-    </Link>
-    <h1>Index Page</h1>
-  </div>
+  <ul>
+    <li><Link href='/a' as='/a'><a>a</a></Link></li>
+    <li><Link href='/b' as='/b'><a>b</a></Link></li>
+  </ul>
 )
